@@ -7,7 +7,7 @@
 //
 
 #import "WYViewController.h"
-
+#import "UIViewController+test.h"
 @interface WYViewController ()
 
 @end
@@ -17,6 +17,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    self.view.backgroundColor = UIColor.redColor;
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
